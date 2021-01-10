@@ -1,0 +1,146 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+  background:#545b62;
+}
+*,
+*::after,
+*::before {
+  font-size: 1.6rem;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.container > h1 {
+  text-align: center;
+  margin: 5rem 0;
+}
+.user-cards {
+  display: grid;
+  grid-gap: 10%;
+  grid-template-columns: repeat(3, 200px);
+  justify-content: center;
+  margin-top: 30px;
+}
+.user-card {
+  overflow: hidden;
+  position: relative;
+}
+.user-card .user-image {
+  height: 130px;
+  border: 1px solid #5798eb;
+  padding: 1rem 0.8rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  text-align: center;
+}
+.userInfo .user-card .user-image {
+  height: 400px !important;
+}
+.userInfo{
+  margin: 50px;
+  display: flex;
+  position: relative;
+}
+.userInfo div:{
+  width: 50%;
+}
+.userInfo .btn{
+  font-size: 2rem;
+}
+.user-card .user-image img {
+  height: 100%;
+}
+.userInfo .child-2,
+.userInfo .child-3{
+  width: 50%;
+  text-align: center;
+  bottom: 50%;
+  position: absolute;
+  right: 0;
+  display: inline-grid;
+  grid-gap: 20px;
+  justify-content: center;
+}
+.child-3{
+  bottom: 0 !important; 
+  background-color: cornflowerblue !important;
+  margin: 0 -20px !important;
+}
+.userInfo .child-1{
+  width: 50%;
+}
+.user-card .user-name {
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid #5798eb;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  background-color: #5798eb;
+  font-weight: bold;
+  color: #fff;
+}
+.cta-buttons {
+  text-align: center;
+  margin: 3rem 0;
+}
+.btn {
+  border: 0;
+  outline: 0;
+  background: none;
+  padding: 1rem 3rem;
+  color: #fff;
+  border-radius: 2px;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+.btn.accept-btn {
+  background-color: #0073bb !important;
+}
+.btn.reject-btn {
+  background-color: #ff5c68;
+}
+.searchBar{
+  text-align: center;
+  margin: 30px;
+}
+.searchBar input{
+  padding: .375rem .75rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  outline: none;
+}
+
+.navBar{
+  background: #343a40;
+  height: 70px;
+}
+
+.userListing{
+  margin: 10px 40px 0 40px;
+  text-align: center;
+}
+
+.userListing .backBtn{
+  text-align: right;
+}
+
+.userListing .backBtn .btn{
+  background: cadetblue;
+  font-size: 1.5rem;
+} 
+
+
+
